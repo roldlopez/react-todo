@@ -12,15 +12,11 @@ function App() {
     <Router>
       <div className="btn-group">
         <Link className="btn btn-secondary" to="/">Inicio</Link>
-        <Link className="btn btn-secondary" to="/nosotros/">Nosotros</Link>
         <Link className="btn btn-secondary" to="/contato/ ">contato</Link>
       </div>
 
       <div className="App">
         <Switch>
-          <Route path="/nosotros/">
-            <h1>Nosotros</h1>
-          </Route>
           <Route path="/contato/">
             <Formulario />
           </Route>
